@@ -1,0 +1,230 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(112, 218, 247), rgb(159, 6, 139))
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(79, 8, 79, 1);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+h1 a:hover{
+    color:rgb(191, 92, 226)
+
+}
+
+h1 a:visited{
+    color:rgb(180, 11, 127);
+}
+
+h1 a:visited:hover{
+    color:rgb(93, 7, 66);
+}
+
+h3 {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    
+    
+}
+
+ol>li{
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#profes{
+    float: left;
+    width: 40%;
+    margin-left: 0px;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top:20px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 255, 0.249);
+    text-align: center;
+}
+
+#profes h3{
+    background-color: rgba(255, 0, 136, 0.249);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+ol{
+    list-style-position: inside;
+    background-color: rgba(47, 0, 255, 0.249);
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+#resto_claustro{
+    float: right;
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top:20px;
+    padding-bottom: 35px;
+    background-color: rgba(0, 0, 255, 0.249);
+    margin-right: 20px;
+    
+}
+
+#resto_claustro h3{
+    text-align: center;
+    background-color: rgba(255, 0, 136, 0.249);
+    border-radius: 30px;
+    padding: 10px;
+}
+#resto_claustro table{
+    border-collapse: collapse;
+    background-color: rgba(38, 165, 200, 0.341);
+    
+    
+}
+#resto_claustro td {
+    border: rgb(180, 11, 127) 2px solid;
+    border-radius: 70%;
+    width: 33%;
+    color: white;
+    text-align: center;
+   
+}
+
+#resto_claustro th {
+    border: rgb(11, 105, 131) 2px solid;
+    border-bottom: 0;
+    border-radius: 70%;
+    width: 33%;
+    padding: 5px;
+    color: rgb(112, 12, 65);
+}
+
+#ciclos{
+    float: left;
+    width: 94.8%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top:20px;
+    padding-bottom: 35px;
+    background-color: rgba(0, 0, 255, 0.249);
+}
+
+#ciclos table{
+    border-collapse: collapse;
+    background-color: rgba(38, 165, 200, 0.341);
+    
+    
+}
+#ciclos td {
+    border: rgb(180, 11, 127) 2px solid;
+    border-radius: 70%;
+    width: 33%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+   
+}
+
+#ciclos th {
+    border: rgb(11, 105, 131) 2px solid;
+    border-bottom: 0;
+    border-radius: 70%;
+    width: 33%;
+    padding: 5px;
+    color: rgb(112, 12, 65);
+}
+
+td>a, td>a:visited{
+    color:rgb(255, 255, 255);
+}
+
+td>a:hover, td>a:visited:hover{
+    color:rgb(81, 9, 47);
+}
+
+#ciclos h3{
+    text-align: center;
+    background-color: rgba(255, 0, 136, 0.249);
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+h4{
+    color: white;
+    -webkit-text-stroke: rgb(100, 9, 146) 0.7px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#contact{
+    margin-top: 630px;
+    padding-top: 10px;
+}
+form{
+    width: 51%;
+    display: flex;
+    margin-left: 360px;
+    padding: 15px;
+    background-color: rgba(255, 0, 136, 0.249);
+    border-radius: 30px;
+    border-color: rgb(81, 9, 47);
+}
+fieldset{
+    width: 100%;
+    border: 0;
+    
+}
+#form1, #form2, #form3, #form4 {
+    padding: 5px;
+}
+input{
+    border-radius: 20px;
+    border-color:rgb(81, 9, 47);
+    background-color: rgb(225, 185, 234);
+}
+label[for="apellidos"], label[for="email"]{
+    padding-left: 50px;
+}
+#apellidos{
+    width: 300px;
+}
+
+#email{
+    width: 325px;
+}
+
+select {
+    margin-left: 10px;
+}
+
+textarea{
+    margin-left: 150px;
+    border-radius: 10px;
+    background-color: rgb(225, 185, 234);
+}
+
+#form4{
+    margin-top: 5px;
+    text-align: center;
+}
+
+#enviar, #borrar{
+    margin-left: 170px;
+    padding: 5px;
+    border-radius: 10px;
+}
