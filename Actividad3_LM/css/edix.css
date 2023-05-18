@@ -1,0 +1,266 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(/Actividad3_LM/somos-edix-1920.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serifs;
+   
+    
+
+}
+
+#cajaMargen{
+    margin: 25px 25px;
+}
+
+
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none; /** quitamos la linea del texto **/
+}
+
+.cajaMenu {
+    width: auto;
+    height: 29px;
+    padding: 20px 60px;
+    background-color: rgb(174, 127, 255);
+ 
+}
+
+
+.cajaMenu> ul >li {
+    float:left; /** Horizintalmente los links*/
+}
+
+.cajaMenu > ul >li > a{
+
+    color:rgb(255, 255, 255);
+    padding: 20px 40px;
+    font-size: 25px;
+    font-weight: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    text-decoration: none;
+    
+    
+}
+
+.cajaMenu > ul >li > a:hover{
+    background-color:  rgba(101, 51, 189, 0.756);
+    
+
+}
+
+/* Submenu*/
+.cajaMenu > ul >li > ul{
+
+    display: none; /* fuera sublista*/
+    position: absolute;
+    width: 150px;
+    margin-top: 20px;
+    list-style: none;
+
+}
+
+
+
+.cajaMenu > ul >li > ul > li > a{
+
+    display:block;
+    color:white;
+    background-color:  rgba(174, 127, 255, 0.7);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border-top: solid 1px white;
+
+}
+
+    
+/*Vamos a ponerle el hoover a la sublista*/
+
+.cajaMenu > ul >li > ul > li > a:hover{
+
+    background-color:  rgba(101, 51, 189, 0.756);
+
+    
+}
+
+.cajaMenu >ul> li:hover > ul {
+    display:block;
+}
+ /** ****************************************************************************************************** **/
+
+ .cajaTexto{
+    width: 50%;
+    height: 450px;
+    margin: 15px 30px;
+    background-color:  rgb(174, 127, 255);
+    float: left;
+ }
+
+ .margen{
+    margin-left: 30px;
+ }
+
+ p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 15px;
+    text-align: justify;
+ 
+ }
+ 
+ .cajaImagen{
+    width: 45%;
+    height: 400px;
+    float: left;
+    background-color:rgba(101, 51, 189, 0.756);
+    margin-top: 30px;
+ }
+ 
+ .imagen{
+    width: 100%;
+    height: 400px;
+   
+ }
+ 
+
+
+ /** ****************************************************************************************************************/
+ 
+ .tabla2{
+    float: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;
+    border: 4px solid rgba(101, 51, 189, 0.756);
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 96%;
+  
+ }
+
+ th, td{
+    width: 23%;
+    height: 30px;
+    border: 4px solid rgba(101, 51, 189, 0.756);
+    text-align: left;
+    vertical-align: top;
+    padding: 25px;
+  
+ }
+
+/** ***************************************************************************************************************/
+.cajaPie{
+    width: auto;
+    height: 80px;
+    background-color: rgb(174, 127, 255);
+    display: block;
+    margin-top: 1600px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+
+.tabla{
+
+    font-size: 15px;
+    width: 40%;
+    height: 100px;
+    text-align: center; 
+    margin: 15px 15px 15px 15px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#estiloCelda{
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+}
+
+.caja5{
+    width: 96%;
+    height: 150px;
+    background-color:rgb(174, 127, 255);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin:20px;
+    float: left;
+    padding-bottom: 30px;
+    
+}
+
+h2{
+    padding-top: 15px;
+    margin-left: 25px;
+}
+
+h1{
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+
+.caja3{
+    width: 28%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+#estiloCelda{
+    background-color: rgb(174, 127, 255);
+    height: 15px;
+}
+legend{
+    color:rgb(174, 127, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+form{
+    color:rgb(174, 127, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    float: left;
+    margin-left: 15px;
+
+}
+fieldset{
+    border-color: rgb(174, 127, 255);
+}
+

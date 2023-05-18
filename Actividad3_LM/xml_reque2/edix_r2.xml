@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edix.xsl"?>
+<ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com" >
+    <empresa>Proeduca
+        <informacion>
+            Bienvenidos a la web del Grupo PROEDUCA, líder en educación en línea en España. Tiene como objetivo proporcionar la mejor oferta de educación superior en línea a sus estudiantes. Asume sus compromisos educativos en tres universidades: la Universidad Internacional de La Rioja (UNIR), UNIR México, Institución Particular de Educación Superior, y CUNIMAD. Asimismo, hace lo propio en la Escuela de Posgrado Newman, situada en Perú, y en EEUU, donde tiene presencia a través de MIU City University Miami. Además, PROEDUCA cuenta con un convenio con la Universidad InterNaciones de Guatemala para favorecer la incorporación de nuevas titulaciones y metodologías formativas. En Colombia, UNIR colabora con la Fundación Universitaria Internacional de La Rioja, con la que mantiene vínculos contractuales y académicos.
+            Cuenta además con escuelas para formar profesionales digitales, como KSchool y Edix, orientadas a las nuevas profesiones que demanda el mercado.
+            Gracias a su modelo en línea, PROEDUCA tiene estudiantes en más de 90 países, principalmente en España, Ecuador, Colombia, México, Perú, Guatemala y EEUU. Es una compañía en constante evolución, que busca la mejora continua y la aplicación de tecnologías innovadoras en la educación.
+        </informacion>
+        <telefono>+34 91 787 39 91</telefono>
+        <instituto>
+        <nommbre>Edix</nommbre>
+            <informacion>
+                    1.Aprender haciendo.
+					Hemos creado Action Learning, una metodología que garantiza el aprendizaje práctico gracias a la combinación de contenidos didácticos de calidad con plataformas de simulación reales. 
+				
+					2.Aprender haciendo.
+					Hemos creado Action Learning, una metodología que garantiza el aprendizaje práctico gracias a la combinación de contenidos didácticos de calidad con plataformas de simulación reales. 
+				
+				
+					3.Formar 100% online
+					Tú eliges cómo, cuándo y dónde estudiar. Solo necesitas ganas y una conexión a internet. Llevamos más de una década formando a personas a través del e-learning. 
+			
+				
+					4.Conectar con el mercado.
+					Diseñamos nuestras formaciones escuchando las necesidades de las organizaciones. De esta manera, nuestros alumnos llegan más rápido y mejor preparados a las ofertas de trabajo. 
+				 
+					5.Aprender de los mejores.
+					Nuestros profesores son unos apasionados instructores, además de profesionales en activo en empresas relevantes del sector tecnológico y digital. Así se garantiza una aprendizaje de calidad. 
+					
+						
+					6.Estudiar acompañado.
+					Todos nuestros alumnos están en contacto directo con profesores instructores, tutores, coachs académicos... Y compañeros, porque creemos en la formación en squads (grupos). 
+            </informacion>
+        </instituto>
+    </empresa>
+    <personal>
+        <personal_Docente>
+            <profesor id="1">
+                <nombre>Félix</nombre>
+                <apellidos>De Pablo</apellidos> 
+                <asigantura id="1">Lenguaje de Marcas</asigantura>
+                <horario turno="tarde">
+                    <dias>Mierdoles</dias>
+                    <hora>17:00 - 18:00</hora>
+                </horario>
+            </profesor>
+            <profesor id="2">
+                <nombre>Raúl</nombre>
+                <apellidos>Salgado</apellidos>
+                <asigantura id="2">Base de Datos</asigantura>
+                <horario turno="tarde">
+                    <dias>Mierdoles - Jueves</dias>
+                    <hora>19:00 - 20:30</hora>
+                </horario>
+            </profesor>
+            <profesor id="3">
+                <nombre>Raquel</nombre>
+                <apellidos>Cerdá</apellidos>
+                <asigantura id="3">Sistemas Informáticos</asigantura>
+                <horario turno="mañana">
+                     <dias>Lunes</dias>
+                    <hora>19:00 - 20:30</hora>
+                </horario> 
+            </profesor>
+            <profesor id="4">
+                <nombre>Tomás</nombre>
+                <apellidos>Escudero</apellidos>
+                <asigantura id="4">Programación</asigantura>
+                <horario turno="tarde">
+                    <dias>Lunes - Jueves</dias>
+                    <hora>17:00 - 19:00</hora>
+                </horario> 
+            </profesor>
+        </personal_Docente>
+        <direccion>
+            <director>
+                <nombre>Ascensión</nombre>
+                <apellidos>Blázquez</apellidos>  
+                <despacho>Numero 31, 3ª Planta, Edificio A</despacho>
+            </director>
+            <jefe_estudios>
+                <nombre>Daniel</nombre>
+                <apellidos>Díaz</apellidos>  
+                <despacho>Numero 27, 2ª Planta, Edificio B</despacho>
+            </jefe_estudios>
+        </direccion>
+    </personal>
+    <formacion>
+        <grados_superiores> 
+            <informacion clase="fp">
+                ¡No te lo pierdas!Nuestros grados superiores de FP a distancia son titulaciones oficiales del Ministerio de Educación y de la Comunidad de Madrid. Sus planes de estudio están adaptados a las habilidades más demandadas por las empresas hoy. Todos incluyen prácticas garantizadas en las mejores empresas.   
+                Además de ser titulaciones oficiales por parte del Ministerio de Educación y la Comunidad de Madrid, nuestros grados superiores de FP están revisados y adaptados con los contenidos, herramientas y prácticas más demandadas por las empresas que contratan a titulados en formación profesional.
+            </informacion>
+            <ciclo id="ASIR" tipo="informatica" duracion="2 años" inicio="Otoño_2023">
+                <nombre>Administración de Sistemas Informáticos en Red</nombre>
+                <informacion clase="FP1">
+                    Fórmate en las últimas compentencias, aplicaciones y técnicas digitales y contribuye desde el primer momento a garantizar unos procesos más ágiles y a mejorar la productividad de las empresas Destaca con un Grado Superior va más allá de las meras tareas administrativas e incluye una especialización en las áreas estratégicas de la compañía, como business intelligence (BI), análisis contable y gestión de recursos humanos.
+                </informacion>
+                <grado decretoTituloAño="2009">Superior</grado>
+              
+            </ciclo>
+            <ciclo id="DAW" tipo="informatica" duracion="2 años" inicio="Otoño_2023">
+                <nombre>Desarrollo de Aplicaciones Web</nombre>
+                <informacion clase="FP2">
+                    Serán las empresas las que te busquen. Necesitan perfiles que sepan programar tanto del lado del servidor como del lado cliente, y eso es justo lo que aprenderás en UNIR Formación Profesional con un programa avalado por la CAM y sin aumento de horas docentes.
+                    El desarrollo web abarca momentos diferentes, desde la configuración del servidor hasta el diseño de la interfaz en la que navega el usuario. Con las tecnologías que conforman el paquete MEAN —MongoDB, Express, Angular y Node.js—, tendrás el control de todo el proceso. Crearás aplicaciones web más útiles, más intuitivas y con mejores resultados.
+                </informacion>
+                <grado decretoTituloAño="2010">Superior</grado>
+             
+            </ciclo>
+            <ciclo id="DAM" tipo="informatica" duracion="2 años" inicio="Otoño_2023" >
+                <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+                <informacion clase="FP3">
+                    Sabemos que las empresas buscan profesionales que trabajan con DevOps (development and operations). Para que tu formación en DAM sea completa y multipliques tus opciones de encontrar un buen empleo, aprenderás con nosotros a crear software de calidad de una manera más rápida y económica.
+                </informacion>
+                <grado decretoTituloAño="2010">Superior</grado>
+              
+            </ciclo>
+             <ciclo id="MD" tipo="otros" duracion="2 años" inicio="Otoño_2023">
+                <nombre>Marketing Digital</nombre>
+                <informacion clase="FP4">
+                    ¿Hasta dónde quieres llegar en marketing y publicidad? Aprende a utilizar las redes sociales, los espacios publicitarios en la web y cómo interactúan los usuarios con las marcas para llevar al éxito cualquier campaña. Adquiere las últimas competencias en publicidad digital, analítica y marketing digital avanzado y las técnicas y herramientas del growth marketing, con las que alcanzarás los objetivos de crecimiento en menos tiempo y con mejores resultados.
+                </informacion>
+                <grado decretoTituloAño="2012">Superior</grado>
+               
+            </ciclo>
+             <ciclo id="FIN" tipo="otros" duracion="2 años" inicio="Otoño_2023">
+                <nombre>Administración y finanzas</nombre>
+                <informacion clase="FP5">
+                    Aprende y practica las competencias digitales que más demandan las empresas y forma parte de la solución a la hora de agilizar los procesos y ayudar en la toma de decisiones estratégicas. Con este Grado Superior, además de las tareas administrativas habituales, te especializarás en tecnologías de gestión de vanguardia que necesitan los departamentos que forman parte del núcleo de las organizacione
+                </informacion>
+                <grado decretoTituloAño="2012">Superior</grado>
+           
+            </ciclo>
+        </grados_superiores>
+        <bootcamps>
+            <informacion clase="boot">
+                Es una formación intensiva de 16 a 36 semanas de duración, en la que aprendes una profesión digital desde cero y sales preparado para trabajar al día siguiente. Los conocimientos que aprendes y practicas se actualizan constantemente y están adaptados a lo que demandan las empresas hoy. Le llamamos bootcamp porque aprendes entrenando en equipo (con otros compañeros) y con la ayuda de un profesor instructor (tu entrenador).
+            </informacion>
+            <bootcamp codigo="CC" duracion="16 semanas" inicio="Priamvera_2023">Creador de contenidos
+                <contenido id="1">
+                    Con el Bootcamp de Creador de Contenidos Digitales aprenderás a trabajar distintos tipos de contenidos y formatos actuales del entorno online como los podcasts, los vídeos, el diseño de imágenes para las redes sociales y las infografías. Además, en este curso conocerás las mejores técnicas de storytelling para que puedas aplicarlas a tus historias y adquirir las habilidades necesarias para crear textos memorables, narrativas creativas y titulares eficaces.
+                </contenido>
+            </bootcamp>
+            <bootcamp codigo="CRO" duracion="36 semanas" inicio="Priamvera_2023">CRO
+                <contenido id="2">
+                    Con el Bootcamp en CRO (Conversion Rate Optimization) aprenderás a analizar, interpretar situaciones y resolver problemas relacionados con productos digitales (como páginas web) con el objetivo de que te conviertas en todo un profesional CRO cualificado.
+                </contenido>
+            </bootcamp>
+            <bootcamp codigo="DG" duracion="36 semanas" inicio="Priamvera_2023">Digital Content
+                <contenido id="3">
+                    Con el bootcamp en Digital Content aprenderás a coordinar y crear contenido de calidad para cualquier formato o canal digital.
+                </contenido>
+            </bootcamp>
+            <bootcamp codigo="EC" duracion="36 semanas" inicio="Priamvera_2023">Ecommerce
+                <contenido id="4">
+                    Con el Bootcamp en Ecommerce, especializado en el área del comercio online, aprenderás todo lo necesario para trabajar tu propia tienda online y conocer todos los procesos relacionados con la operativa del negocio.
+                </contenido>
+            </bootcamp>
+            <bootcamp codigo="MD" duracion="36 semanas" inicio="Priamvera_2023">MArketing Digital
+                <contenido id="5">
+                    Con el bootcamp en Marketing Digital aprenderás a elaborar la estrategia de marketing online adecuada a cada canal, momento y cliente.
+                </contenido>
+            </bootcamp>
+            <bootcamp codigo="SEO" duracion="36 semanas" inicio="Priamvera_2023">SEO
+                <contenido id="6">
+                    Con el Bootcamp en SEO (Search Engine Optimization) aprenderás a integrarte dentro de un equipo de marketing y ser el especialista en conseguir tráfico no pagado desde buscadores.
+                </contenido>
+            </bootcamp>
+            <bootcamp codigo="SF" duracion="16 semanas" inicio="Priamvera_2023" >Salesforce
+                <contenido id="7">
+                    Fórmate con el bootcamp en Salesforce y aprende a desarrollar un proyecto de transformación digital basado en el CRM número 1 en el mundo. Te entrenarás en la captación, conversión, fidelización y gestión de clientes con esta plataforma integrada.
+                </contenido>
+            </bootcamp>
+        </bootcamps>
+        <cursos_FP>
+            <informacion clase="curso">
+                Un título de postgrado oficial por parte del Ministerio de Educación y la Comunidad de Madrid y con una garantía de aprendizaje práctico. Así son los denominados Másteres FP. Pensados para todos aquellos alumnos que han terminado ya una FP técnica y quieren profundizar en una hiperespecialización de alta demanda en el mercado laboral. Una garantía de crecimiento profesional y de empleabilidad directa.
+            </informacion>
+            <curso codigo="AD" duracion="4 meses" inicio="Priamvera_2023">Arquitectura Big Data
+                <informacion clase="curso_AD">
+                    Con el Curso en Arquitectura Big Data de UNIR Formación Profesional te especializarás en el análisis, procesado, mantenimiento y explotación de macrodatos con un objetivo estratégico: ayudar a las organizaciones a tomar mejores decisiones. Aprenderás lenguajes de programación, gestión de bases de datos y desarrollar un modelo de Big Data que responda a las necesidades de una compañía. Entender y utilizar los datos como elemento estratégico en las organizaciones.
+                </informacion>
+            </curso>
+            <curso codigo="CS" duracion="9 meses" inicio="Priamvera_2023">Ciberseguridad
+                <informacion clase="curso_CS">
+                    Con nuestro Curso en Ciberseguridad te especializarás en las principales técnicas de protección ante amenazas informáticas e incidentes en la red. Desde el diagnóstico de riesgos y el diseño de planes de prevención, hasta la protección activa de los sistemas. Sin olvidar la normativa vigente que debes tener en cuenta en cada caso
+                </informacion>
+            </curso>
+            <curso codigo="IA" duracion="9 meses" inicio="Priamvera_2023">Inteligencia artificial y Big Data
+                <informacion clase="curso_IA">
+                    En este Curso en Inteligencia Artificial y Data Science utilizarás modelos de 'machine learning' o de procesamiento de lenguaje natural (PLN), por ejemplo, para el análisis y tratamiento de datos masivos. También aprenderás a programar robots y automatizar procesos industriales. Contribuirás a que las organizaciones sean más eficientes, y la vida de las personas, más fácil.
+                </informacion>
+            </curso>
+        </cursos_FP>
+    </formacion>
+</ite>
