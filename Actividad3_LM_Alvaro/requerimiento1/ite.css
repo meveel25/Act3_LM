@@ -1,0 +1,100 @@
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.fondo{
+    background-image:url(imagenes/fondo-desenfoque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+h1 {
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    color: rgb(26, 202, 190);
+    text-align: center;
+}
+
+h2 {
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+
+
+th {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+td {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+
+form {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+form input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form label {
+    width: 150px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#tipogrado {
+    width: 350px;
+    display: inline-block;
+    padding: 20px;
+}
+
+#ciclo {
+    margin-left: 40px;
+}
+
+#enviar {
+    width: 120px;
+    font-size: 15px;
+    position: static;
+    padding-right: 20px;
+    background-color: rgb(142, 209, 205);
+}
+
+#limpiar {
+    width: 160px;
+    font-size: 15px; 
+    position: static;
+    margin-left: 20px;
+    background-color: rgb(142, 209, 205);
+}
