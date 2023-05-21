@@ -98,3 +98,14 @@ form label {
     margin-left: 20px;
     background-color: rgb(142, 209, 205);
 }
+
+.edix {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}

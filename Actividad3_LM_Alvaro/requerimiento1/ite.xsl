@@ -122,6 +122,9 @@
                         <br/>
                     </fieldset>
                 </form>
+                <footer>
+                    <a class="edix" href="{ite/@web}"><img src="imagenes/edix-formacion.png"></img></a>
+                </footer>
             </body>
         </html>
     </xsl:template>
