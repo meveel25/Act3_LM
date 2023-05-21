@@ -216,6 +216,7 @@ textarea{
     margin-left: 150px;
     border-radius: 10px;
     background-color: rgb(225, 185, 234);
+    resize: none;
 }
 
 #form4{

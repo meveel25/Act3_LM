@@ -101,7 +101,7 @@
                         </select>
                     </div>
                     <br/>
-                    <textarea style="resize:none" rows="10" cols="50" name="consulta" placeholder="Cuéntanos un poco acerca de tu consulta"></textarea>
+                    <textarea rows="10" cols="50" name="consulta" placeholder="Cuéntanos un poco acerca de tu consulta"></textarea>
                     <br/>
                     <div id="form4">
                         <input type="checkbox" name="acepto" value="S"/><label for="acepto">Acepto la <a href="https://unirfp.unir.net/politica-de-privacidad/" title="Politica de privacidad">política de privacidad</a> y el tratamiento de mis datos</label>
